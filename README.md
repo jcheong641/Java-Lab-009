@@ -16,7 +16,7 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+The blank object is mutable because this object can be changed after it is created.
 ```
 
 ```java
@@ -47,7 +47,7 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+For the findCenter method, a Point object is returned, and for distance a double value is returned. The Point object allows for coordinates to be given, and the double object utilizes a more calculated value with the formula given in the code. 
 ```
 
 ```java
@@ -87,14 +87,15 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
+(5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+Yes, p1 and p2 are aliased. These two variables refer to the same object, and the Point objects are the same.
 ```
 
 ```java
@@ -142,6 +143,7 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
+   In order to generalize it more, we could account for curly brackets or square brackets.
 
 ## Part 4: Large Numbers
 
